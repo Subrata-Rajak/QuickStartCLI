@@ -6,7 +6,7 @@ import inquirer from 'inquirer';
 import fs from "fs";
 
 // Define available project templates (branches)
-const templates = ['flutter-template', "node-template"];
+const templates = ['flutter-template', "flutter-feature-template", "node-template"];
 
 program
     .description('Generate project from template')
